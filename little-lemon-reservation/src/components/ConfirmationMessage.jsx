@@ -5,7 +5,7 @@ function ConfirmationMessage({ formData, onReset }) {
   const [show, setShow] = useState(false);
 
   useEffect(() => {
-    setTimeout(() => setShow(true), 200); // slight delay for animation
+    setTimeout(() => setShow(true), 200); 
   }, []);
 
   return (

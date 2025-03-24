@@ -1,8 +1,7 @@
-// Import the functions you need
+
 import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
 
-// Your web app's Firebase config (paste your own)
 const firebaseConfig = {
 apiKey: "AIzaSyCdt5Y3JNMKh7sW7LksWKLFGLMa5C_VSTg",
   authDomain: "little-lemon-reservation-d5afa.firebaseapp.com",
@@ -12,7 +11,7 @@ apiKey: "AIzaSyCdt5Y3JNMKh7sW7LksWKLFGLMa5C_VSTg",
   appId: "1:780463782572:web:cfae2b9b444c2d35ebbd09"
 };
 
-// Initialize Firebase
+
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
 

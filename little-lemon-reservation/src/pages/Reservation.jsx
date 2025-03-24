@@ -22,12 +22,12 @@ const next = async () => {
   setStep(nextStep);
 
   if (nextStep === 3) {
-    // Save to localStorage (optional)
+    
     const saved = JSON.parse(localStorage.getItem("reservations")) || [];
     const updated = [...saved, formData];
     localStorage.setItem("reservations", JSON.stringify(updated));
 
-    // ✅ Save to Firebase Firestore
+    
     try {
       await addDoc(collection(db, "reservations"), formData);
       console.log("Reservation saved to Firebase!");

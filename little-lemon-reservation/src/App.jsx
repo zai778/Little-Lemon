@@ -7,7 +7,7 @@ import Reservation from "./pages/Reservation";
 import Confirmation from "./pages/Confirmation";
 import Footer from "./components/Footer";
 
-// Optional: Shared layout or navbar can go here
+
 
 function App() {
   return (
